@@ -1,5 +1,5 @@
 /*!
- * jQuery JavaScript Library v2.2.4
+ * jQuery JavaScript Library v3.6.0
  * http://jquery.com/
  *
  * Includes Sizzle.js
@@ -65,7 +65,7 @@ var support = {};
 
 
 var
-	version = "2.2.4",
+	version = "3.6.0",
 
 	// Define a local copy of jQuery
 	jQuery = function( selector, context ) {
@@ -3975,7 +3975,6 @@ jQuery.fn.extend( {
 				data = dataUser.get( elem, key ) ||
 
 					// Try to find dashed key if it exists (gh-2779)
-					// This is for 2.2.x only
 					dataUser.get( elem, key.replace( rmultiDash, "-$&" ).toLowerCase() );
 
 				if ( data !== undefined ) {
